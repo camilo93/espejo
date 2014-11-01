@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>Vigenere</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <script type="text/javascript" src="js/libs/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="vigenere.js"></script>
+    <script type="text/javascript" src="appVigenere.js"></script>
+
+
+
+    <div id="container">
+        <div id="header">
+            <h1>
+                Universidad de Cundinamarca
+            </h1>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+
+            </ul>
+        </div>
+        <div id="content-container">
+            <div id="content">
+                
+                <form name=formula>
+                    <table border="0" width="720">
+                        <tr>
+                            <td width="175" valign="top" align="center">
+                                <br>
+                                TEXTO A CIFRAR O DECIFRAR
+                                <p>&nbsp;
+                            </td>
+                            <td width="529" align="center"><textarea rows="7" name="entrada" cols="52"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td width="175" valign="top" align="center">INTRODUCIR LA CLAVE Y DECIFRAR O CIFRAR SEGUN SEA EL CASO.</td>
+                            <td width="529" align="center">
+                                <p align="center">
+                                    <br>
+                                    Clave:&nbsp;
+                                    <input type="text" name="clave" size="12" maxlength="15">
+                                </p>
+                                <p align="center">
+                                    <input type="button" id="cifrar" value="     Cifrar     " name="b1">&nbsp;&nbsp;
+                                    &nbsp; <input type="button" id="decifrar" value="  Descifrar  " name="b2">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="button" id="subir" value=" Subir texto" name="b3" /><br>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="175" valign="top" align="center">
+                                &nbsp;
+                                <p>&nbsp;</p>
+                                <p>RESULTADO DEL PROCESO .
+                            </td>
+                            <td width="529" align="center">
+                                <br>
+                                <textarea rows="7" name="salida" cols="52"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+
+
+            </div>
+            <div id="aside">
+                
+               
+            </div>
+            <div id="footer">
+                Presentado por: Christian Camilo Castillo
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
